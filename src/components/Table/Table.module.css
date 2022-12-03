@@ -1,0 +1,56 @@
+.main_container{
+    position: relative;
+    width: 80%;
+}
+
+.button{
+    width: max-content;
+    height: 3rem;
+    border: none;
+    margin: 1rem 0;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    
+}
+
+.add_btn{
+    background: #30BE4F; 
+    color: #242424;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.button span{
+    color: #242424;
+    font-size: 1.2rem;
+}
+
+.product_list{
+    overflow-x: auto;
+}
+.pagination{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.pagination>button{
+    padding: .4rem 0.9rem;
+    background: #083ea1;
+    color: white;
+    font-size: 1rem;
+}
+@media screen and (max-width : 570px){
+    .main_container{
+        position: relative;
+        top:5rem;
+    }
+}
+@media screen and (max-width: 820px){
+    .main_container{
+        width: 100%;
+    }
+}

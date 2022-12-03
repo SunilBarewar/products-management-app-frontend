@@ -1,0 +1,82 @@
+.container {
+    width: 20%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    color: #242424;
+}
+
+.container_heading {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.filter_btn {
+    position: absolute;
+    width: max-content;
+    border-radius: 8px;
+    background: #d6d6d6;
+    margin: 1rem 0;
+    border: none;
+    padding: 0 1rem;
+    box-sizing: content-box;
+    padding: 0 1rem;
+    right: 0;
+    height: 3rem;
+    visibility: hidden;
+    cursor: pointer;
+    color: #242424;
+    font-size: 1rem;
+}
+.logout_btn{
+    width: max-content;
+    border-radius: 8px;
+    background: rgb(189, 39, 39);;
+    margin: 1rem 0;
+    border: none;
+    padding: 0 1rem;
+    box-sizing: content-box;
+    padding: 0 1rem;
+    right: 0;
+    height: 3rem;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+}
+@media screen and (max-width: 820px) {
+    .container {
+        position: absolute;
+        background: rgb(224, 222, 222);
+        width: 30%;
+        right: 0;
+        top:5rem;
+    }
+    .filter_btn {
+        visibility: visible;
+    }
+    .active {
+        display: flex;
+    }
+
+    .inactive {
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 570px) {
+    .container {
+        top: 10rem;
+        width: 70%;
+    }
+
+    .filter_btn {
+        visibility: visible;
+        top: 5rem;
+    }
+}

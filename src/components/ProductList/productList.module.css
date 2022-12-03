@@ -1,0 +1,36 @@
+.main_conatiner {
+    width: 100%;
+    border: 2px solid rgb(182, 182, 182);
+    min-width:  570px;
+    min-height: 400px;
+}
+
+.col_heading {
+    background: #D9D9D9;
+    border-radius: 7px;
+    padding: 10px;
+}
+.header_row{
+    border: none;
+    background: #fff;
+    margin: .6rem .5rem;
+}
+.header_row .col_heading{
+    width: 100%;
+}
+.list_container{
+    display: flex;
+    flex-direction: column;
+}
+.empty_store{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.empty_store span{
+   font-size: 1.6rem;
+   color:rgb(100, 13, 13)
+}
