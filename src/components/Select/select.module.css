@@ -1,0 +1,7 @@
+.options select{
+    outline: none;
+    padding: 5px;
+    border-radius: 8px;
+    text-align: center;
+}
+

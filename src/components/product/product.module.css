@@ -1,0 +1,50 @@
+.image_container {
+    width: 100px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_container  img{
+    height:90px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: #d31616;
+}
+.text{
+    font-size: .8rem;
+    @media screen and (max-width : 470px) {
+       font-size : .9rem;
+    }
+
+}
+.actions{
+    display: flex;
+    gap: .9rem;
+}
+.edit,.delete{
+    border-radius: 4px;
+}
+.edit{
+    background: #13b2b8;
+}
+.delete{
+    background: rgb(189, 39, 39);
+}
+.button{
+    border: none;
+    outline: none;
+}
+.rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+.star{
+    color: rgb(177, 177, 3);
+    text-shadow: 0 0 10px rgb(177, 177, 3);
+}
+

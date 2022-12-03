@@ -1,0 +1,18 @@
+.container{
+    width: 90%;
+    height: 130px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: .5rem;
+
+    background: var(--bg-filter);
+    border-radius: .6rem;
+    margin: .7rem;
+    padding: .3rem 0;
+}
+.container_heading {
+    font-size: 1.1rem;
+    text-align: left;
+}
